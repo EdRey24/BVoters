@@ -14,9 +14,8 @@
 
 <body>
     <div class="navbar">
-        <a href="questionaire.html">Questionaire</a>
         <a class="active" href="index.html"><h1>BVoters</h1></a>
-        <a href="#About">About</a>
+        <a href="about-us.html">About</a>
     </div>
     <h1>What kind of voter are you?</h1>
 
@@ -26,91 +25,190 @@
             <label>
                 Should we roll back existing policies regulating fossil fuel production?
             </label>
-
+            <form id ="rankingForm">
+                <label for="option1">Rank how important this question is to you: </label>
+                <input type="number" id="option1" name="option1" min="1" max="8">
+            </form>
             <!-- Input Type Radio Button -->
             <label for="recommed-1">
-                <input type="radio" name="recommed">Yes
+                <input id="q1o1" type="radio" name="recommend1" value ="1"> Yes
                 </input>
             </label>
             <label for="recommed-2">
-                <input type="radio" name="recommed">Maybe
+                <input id="q1o2" type="radio" name="recommend1" value ="0"> Maybe
                 </input>
             </label>
             <label for="recommed-3">
-                <input type="radio" name="recommed">No
+                <input id="q1o3" type="radio" name="recommend1" value ="-1"> No
                 </input>
+                <!-- <h3 id = "output"></h3> -->
             </label>
+            
+            
             <label>
                 Do you believe that climate change is an existing issue that requires heavy attention by the people of the United States?
             </label>
-
+            <form id ="rankingForm2">
+                <label for="option2">Rank how important this question is to you: </label>
+                <input type="number" id="option2" name="option2" min="1" max="8">
+            </form>
             <!-- Input Type Radio Button -->
             <label for="recommed-1">
-                <input type="radio" name="recommed">Yes
+                <input id="q2o1" type="radio" name="recommend2"> Yes
                 </input>
             </label>
             <label for="recommed-2">
-                <input type="radio" name="recommed">Maybe
+                <input id="q2o2" type="radio" name="recommend2"> Maybe
                 </input>
             </label>
             <label for="recommed-3">
-                <input type="radio" name="recommed">No
+                <input id="q2o3" type="radio" name="recommend2"> No
                 </input>
             </label>
+
+
             <label>
-                Should individual states or the federal government be in charge of education?           
+                Should individual states be in charge of education?           
             </label>
-
+            <form id ="rankingForm">
+                <label for="option3">Rank how important this question is to you: </label>
+                <input type="number" id="option3" name="option3" min="1" max="8">
+            </form>
             <!-- Input Type Radio Button -->
             <label for="recommed-1">
-                <input type="radio" name="recommed">Yes
+                <input id="q3o1" type="radio" name="recommend3"> Yes
                 </input>
             </label>
             <label for="recommed-2">
-                <input type="radio" name="recommed">Maybe
+                <input id="q3o2" type="radio" name="recommend3"> Maybe
                 </input>
             </label>
             <label for="recommed-3">
-                <input type="radio" name="recommed">No
+                <input id="q3o3" type="radio" name="recommend3"> No
                 </input>
             </label>
+
+
             <label>
-                Do you believe that climate change is an existing issue that requires heavy attention by the people of the United States?
+                Should a person be able to carry a concealed firearm on school grounds?    
             </label>
-
+            <form id ="rankingForm">
+                <label for="option4">Rank how important this question is to you: </label>
+                <input type="number" id="option4" name="option4" min="1" max="8">
+            </form>
             <!-- Input Type Radio Button -->
             <label for="recommed-1">
-                <input type="radio" name="recommed">Yes
+                <input id="q4o1" type="radio" name="recommend4"> Yes
                 </input>
             </label>
             <label for="recommed-2">
-                <input type="radio" name="recommed">Maybe
+                <input id="q4o2" type="radio" name="recommend4"> Maybe
                 </input>
             </label>
             <label for="recommed-3">
-                <input type="radio" name="recommed">No
+                <input id="q4o3" type="radio" name="recommend4"> No
+                </input>
+            </label>
+
+
+            <label>
+                Should there be new pathways to U.S. citizenship for undocumented immigrants?
+            </label>
+            <form id ="rankingForm">
+                <label for="option5">Rank how important this question is to you: </label>
+                <input type="number" id="option5" name="option5" min="1" max="8">
+            </form>
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input id="q5o1" type="radio" name="recommend5"> Yes
+                </input>
+            </label>
+            <label for="recommed-2">
+                <input id="q5o2" type="radio" name="recommend5"> Maybe
+                </input>
+            </label>
+            <label for="recommed-3">
+                <input id="q5o3" type="radio" name="recommend5"> No
+                </input>
+            </label>
+
+
+            <label>
+                Should people from an upper economic bracket be taxed more?
+            </label>
+            <form id ="rankingForm">
+                <label for="option6">Rank how important this question is to you: </label>
+                <input type="number" id="option6" name="option6" min="1" max="8">
+            </form>
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input id="q6o1" type="radio" name="recommend6"> Yes
+                </input>
+            </label>
+            <label for="recommed-2">
+                <input id="q6o2" type="radio" name="recommend6"> Maybe
+                </input>
+            </label>
+            <label for="recommed-3">
+                <input id="q6o3" type="radio" name="recommend6"> No
+                </input>
+            </label>
+
+
+            <label>
+                Should the Affordable Care Act be protected?
+            </label>
+            <form id ="rankingForm">
+                <label for="option7">Rank how important this question is to you: </label>
+                <input type="number" id="option7" name="option7" min="1" max="8">
+            </form>
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input id="q7o1" type="radio" name="recommend7"> Yes
+                </input>
+            </label>
+            <label for="recommed-2">
+                <input id="q7o2" type="radio" name="recommend7"> Maybe
+                </input>
+            </label>
+            <label for="recommed-3">
+                <input id="q7o3" type="radio" name="recommend7"> No
+                </input>
+            </label>
+
+            
+            <label>
+                Should we implement higher tariffs with the intention of motivating domestic
+            </label>
+            <form id ="rankingForm">
+                <label for="option8">Rank how important this question is to you: </label>
+                <input type="number" id="option8" name="option8" min="1" max="8">
+            </form>
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input id="q8o1" type="radio" name="recommend8"> Yes
+                </input>
+            </label>
+            <label for="recommed-2">
+                <input id="q8o2" type="radio" name="recommend8"> Maybe
+                </input>
+            </label>
+            <label for="recommed-3">
+                <input id="q8o3" type="radio" name="recommend8"> No
                 </input>
             </label>
         </div>
 
-        
-
-        <div class="form-control">
-            <label for="comment">
-                Any comments or suggestions
-            </label>
-
-            <!-- multi-line text input control -->
-            <textarea name="comment" id="comment" placeholder="Enter your comment here">
-            </textarea>
-        </div>
 
         <!-- Multi-line Text Input Control -->
-        <button type="submit" value="submit">
+        <button onclick ="checkInput()" type="button">
             Submit
         </button>
-    </form>
 
+        <h2>Which Candidate fits the issues you support?</h3>
+            <h1 id = "output">Please fill out the questionnaire to Match with a candidate</h3>
+    </form>
+    <script src ="checking.js"></script>
 </body>
 
 </html>

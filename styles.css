@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #f6f6f6;
+    background-color: #F8F9FA;
     text-align: center;
 }
 
@@ -19,20 +24,44 @@ body {
 }
 
 .Candidates {
-    background-color: lightgray;
-    width: 800px;
+    background-color: rgb(186, 177, 177);
     height: 200px;
-    text-align: center;
+    text-align: left;
+    height: 120vh;
     
 }
 
+.Candidates h3{
+    padding: 0 20px;
+}
+
+img{
+    
+    justify-content: right;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+a{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
 
 h1 {
-    color: red;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
     text-align: top;
     font-family: normal;
     text-align: 100px;
 }
+
 
 
 a:link {
@@ -44,6 +73,22 @@ p {
     font-family: normal;
     font-size: 45px;
 }
+
+#What{
+    text-align: center;
+}
+
+
+
+#output{
+    font-size: 50px;
+}
+
+#info{
+    font-size: 10px;
+    padding: 20px 0;
+}
+
 
 /* Questionaire Styling */
 
